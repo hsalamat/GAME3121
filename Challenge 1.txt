@@ -1,0 +1,22 @@
+Challenge Overview: 
+Use the skills you learned in the driving simulation to fly a plane around obstacles in the sky. 
+You will have to get the user’s input from the up and down arrows 
+in order to control the plane’s pitch up and down. 
+You will also have to make the camera follow alongside the plane so you can keep it in view. 
+
+Challenge Outcome:
+The plane moves forward at a constant rate
+The up/down arrows tilt the nose of the plane up and down
+The camera follows along beside the plane as it flies
+
+Note: When you import the challenge into your project, 
+it is supposed to have bugs. 
+The purpose of the challenge is for you to fix those bugs:
+
+1. The plane is going backward, Make the plane go forward
+2. The plane is going too fast, Slow the plane down to a manageable speed
+3. The plane is tilting automatically, Make the plane tilt only if the user presses the up/down arrows
+4. The camera is in front of the plane, Reposition it so it’s beside the plane
+5. The camera is not following the plane, Make the camera follow the plane
+6. Bonus: The plane’s propeller does not spin, Create a script that spins the plane’s propeller
+

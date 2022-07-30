@@ -1,0 +1,16 @@
+Overview: 
+Keep your eyes on the road! In this lab you will code a new C# script for your camera, 
+which will allow it to follow the vehicle down the road and give the player a proper view of the scene. 
+In order to do this, you’ll have to use a very important concept in programming: variables.
+
+Project Outcome:
+The camera will follow the vehicle down the road through the scene, allowing the player to see where it’s going. 
+
+New Functionality:
+Camera follows the vehicle down the road at a set offset distance
+
+New Concepts & Skills:
+Variables 
+Data types 
+Access Modifiers
+Declare and initialize variables

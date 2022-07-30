@@ -1,0 +1,17 @@
+Overview: 
+In this lab, we need to hit the road and gain control of the vehicle. In order to do so, we need to detect 
+when the player is pressing the arrow keys, then accelerate and turn the vehicle based on that input. 
+Using new methods, Vectors, and variables, you will allow the vehicle to move forwards or backwards and turn left to right.
+
+Project Outcome:
+When the player presses the up/down arrows, the vehicle will move forward and backward. 
+When the player presses the left/right arrows, the vehicle will turn.
+
+New Functionality:
+When the player presses the up/down arrows, the vehicle will move forward and backward
+When the player presses the left/right arrows, the vehicle turns 
+
+New Concepts & Skills:
+Empty objects 
+Get user input
+Translate vs Rotate

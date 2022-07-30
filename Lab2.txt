@@ -1,0 +1,27 @@
+Overview: 
+In this lab you will make your driving simulator come alive. 
+First you will write your very first lines of code in C#, 
+changing the vehicle’s position and allowing it to move forward. 
+Next you will add physics components to your objects, 
+allowing them to collide with one another. 
+Lastly, you will learn how to duplicate objects in the hierarchy 
+and position them along the road. 
+
+Project Outcome:
+You will have a moving vehicle with its own C# script and a road full of objects, 
+all of which may collide with each other using physics components.
+
+New Functionality:
+Vehicle moves down the road at a constant speed
+When the vehicle collides with obstacles, they fly into the air
+
+New Concepts & Skills:
+C# Scripts 
+Start vs Update 
+Comments
+Methods 
+Pass parameters
+Time.deltaTime
+Multiply (*) operator
+Components 
+Collider and RigidBody

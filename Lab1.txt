@@ -1,0 +1,30 @@
+Overview: 
+In this lab, you will create your very first game project in Unity Hub. 
+You will choose and position a vehicle for the player to drive and an obstacle 
+for them to hit or avoid. 
+You will also set up a camera for the player to see through, 
+giving them a perfect view of the scene. 
+Throughout this process, you will learn to navigate the Unity Editor 
+and grow comfortable moving around in 3D Space. 
+Lastly, you will customize your own window layout for the Unity Editor.
+
+Project Outcome:
+You will have a vehicle and obstacle positioned on the road 
+and the camera set up perfectly behind the vehicle. 
+You will also have a new custom Unity layout, perfectly optimized for editing.
+
+New Functionality:
+Project set up with assets imported
+Vehicle positioned at the start of the road
+Obstacle positioned in front of the vehicle
+Camera positioned behind vehicle
+
+New Concepts & Skills:
+Create a new project
+Import assets 
+Add objects to the scene
+Game vs Scene view
+Project, Hierarchy, Inspector windows
+Navigate 3D space
+Move and Rotate tools
+Customize the layout 
