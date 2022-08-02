@@ -1,0 +1,19 @@
+Overview: 
+You will begin this unit by creating a new project for your second Prototype and getting basic player movement working. 
+You will first choose which character you would like, which types of animals you would like to interact with, 
+and which food you would like to feed those animals. 
+You will give the player basic side-to-side movement just like you did in Prototype 1, 
+but then you will use if-then statements to keep the Player in bounds. 
+
+Project Outcome:
+The player will be able to move left and right on the screen based on the user’s left and right key presses, 
+but will not be able to leave the play area on either side.
+
+New Functionality:
+The player can move left and right based on the user’s left and right key presses
+The player will not be able to leave the play area on either side
+
+New Concepts & Skills:
+Adjust object scale
+If-statements
+Greater/Less than operators
