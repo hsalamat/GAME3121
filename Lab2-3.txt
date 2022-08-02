@@ -1,0 +1,22 @@
+Overview: 
+Our animal prefabs walk across the screen and get destroyed out of bounds, 
+but they don’t actually appear in the game unless we drag them in! 
+In this lesson we will allow the animals to spawn on their own, in a random location at the top of the screen. 
+In order to do so, we will create a new object and a new script to manage the entire spawning process. 
+
+Project Outcome:
+When the user presses the S key, a randomly selected animal will spawn at a random position at the top of the screen, 
+walking towards the player.
+
+New Functionality:
+The player can press the S to spawn an animal
+Animal selection and spawn location are randomized
+Camera projection (perspective/orthographic) selected
+
+New Concepts & Skills:
+Spawn Manager
+Arrays
+Keycodes
+Random generation
+Local vs Global variables
+Perspective vs Isometric projections
