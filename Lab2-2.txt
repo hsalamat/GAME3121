@@ -1,0 +1,24 @@
+Overview: 
+In this lesson, you will allow the player to launch the projectile through the scene. 
+First you will write a new script to send the projectile forwards. 
+Next you will store the projectile along with all of its scripts 
+and properties using an important new concept in Unity called Prefabs. 
+The player will be able to launch the projectile prefab with a tap of the spacebar. 
+Finally, you will add boundaries to the scene, removing any objects that leave the screen. 
+
+Project Outcome:
+The player will be able to press the Spacebar and launch a projectile prefab into the scene, 
+which destroys itself when it leaves the game’s boundaries. 
+The animals will also be removed from the scene when they leave the game boundaries.
+
+New Functionality:
+The player can press the Spacebar to launch a projectile prefab,
+Projectile and Animals are removed from the scene if they leave the screen
+
+New Concepts & Skills:
+Create Prefabs
+Override Prefabs
+Test for Key presses
+Instantiate objects
+Destroy objects 
+Else-if statements
