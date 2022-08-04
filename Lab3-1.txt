@@ -1,0 +1,29 @@
+Overview: 
+The goal of this lab is to set up the basic gameplay for this prototype. 
+We will start by creating a new project and importing the starter files. 
+Next we will choose a beautiful background and a character for the player to control, 
+and allow that character to jump with a tap of the spacebar. 
+We will also choose an obstacle for the player, 
+and create a spawn manager that throws them in the player’s path at timed intervals. 
+
+Project Outcome:
+The character, background, and obstacle of your choice will be set up. 
+The player will be able to press spacebar and make the character jump, 
+as obstacles spawn at the edge of the screen and block the player’s path.
+
+New Functionality:
+Player jumps on spacebar press
+Player cannot double-jump
+Obstacles and Background move left
+Obstacles spawn on intervals
+
+Key Concepts and Skills:
+GetComponent
+ForceMode.Impulse
+Physics.Gravity
+Rigidbody constraints
+Rigidbody variables
+Booleans
+Multiply/Assign (“*) Operator
+And (&&) Operator
+OnCollisionEnter()
