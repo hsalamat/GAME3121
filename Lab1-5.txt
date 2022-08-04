@@ -1,0 +1,23 @@
+Overview: 
+In this first ever Lab session, you will begin the preliminary work required 
+to successfully create a personal project in this course. 
+First, you’ll learn what a personal project is, what the goals for it are, 
+and what the potential limitations are. 
+Then you will take the time to come up with an idea and outline it in detail in your Design Document, 
+including a timeline for when you hope to complete certain features. 
+Finally, you will take some time to draw a sketch of your project 
+to help you visualize it and share your idea with others.
+
+Project Outcome:
+The Design Document will be filled out, including the concept, the timeline, 
+and a preliminary sketch of the minimum viable product.
+
+New progress:
+Completed your project concept and production timeline
+
+New concepts & skills: 
+Personal Projects
+Design Documents
+Project Timelines, 
+Project Milestones and Backlogs
+Minimum Viable Products

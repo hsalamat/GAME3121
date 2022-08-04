@@ -1,0 +1,18 @@
+Overview: 
+You will create and set up the project that will soon transform into your very own Personal Project. 
+For now, you will use “primitive” shapes (such as spheres, cubes, and planes) as placeholders 
+for your objects so that you can add functionality as efficiently as possible without getting bogged down by graphics. 
+To make it clear which object is which, you will also give each object a unique colored material. 
+
+Project Outcome:
+All key objects are in the scene as primitive objects with the camera positioned properly for your project type.
+
+New progress:
+New project for your Personal Project
+Camera positioned and rotated based on project type
+All key objects in scene with unique materials
+
+New concepts & skills: 
+Primitives
+Create new materials
+Export Unity packages
