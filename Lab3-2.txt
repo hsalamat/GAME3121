@@ -1,0 +1,31 @@
+Overview: 
+We’ve got the core mechanics of this game figured out: 
+The player can tap the spacebar to jump over incoming obstacles. 
+However, the player appears to be running for the first few seconds, 
+but then the background just disappears! In order to fix this, 
+we need to repeat the background seamlessly to make it look like the world is rushing by! 
+We also need the game to halt when the player collides with an obstacle, 
+stopping the background from repeating and stopping the obstacles from spawning. 
+Lastly, we must destroy any obstacles that get past the player.
+
+Project Outcome:
+The background moves flawlessly at the same time as the obstacles, 
+and the obstacles will despawn when they exit game boundaries. 
+With the power of script communication, the background and spawn manager will halt 
+when the player collides with an obstacle. 
+Colliding with an obstacle will also trigger a game over message in the console log, 
+halting the background and the spawn manager.
+
+New Functionality:
+Background repeats seamlessly
+Background stops when player collides with obstacle
+Obstacle spawning stops when player collides with obstacle
+Obstacles are destroyed off-screen
+
+New Concepts and Skills:
+Repeat background
+Get Collider width
+Script communication
+Equal to (==) operator
+Tags
+CompareTag()
