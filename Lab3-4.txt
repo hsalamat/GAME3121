@@ -1,0 +1,19 @@
+Overview: 
+This game is looking extremely good, but it’s missing something critical: Sound effects and Particle effects! 
+Sounds and music will breathe life into an otherwise silent game world, and particles will make the player’s actions more dynamic and eye-popping. 
+In this lesson, we will add cool sounds and particles when the character is running, jumping, and crashing.
+
+Project Outcome:
+Music will play as the player runs through the scene, kicking up dirt particles in a spray behind their feet. 
+A springy sound will play as they jump and a boom will play as they crash, bursting in a cloud of smoke particles as they fall over.
+
+New Functionality:
+Music plays during the game
+Particle effects at the player’s feet when they run
+Sound effects and explosion when the player hits an obstacle
+
+New Concepts and Skills:
+Particle systems 
+Child object positioning
+Audio clips and Audio sources 
+Play and stop sound effects
