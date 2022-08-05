@@ -1,0 +1,23 @@
+Overview: 
+The game is looking great so far, but the player character is a bit… lifeless. 
+Instead of the character simply sliding across the ground, we’re going to give it animations for running, 
+jumping, and even death! We will also tweak the speed of these animations, 
+timing them so they look perfect in the game environment.
+
+Project Outcome:
+With the animations from the animator controller, the character will have 3 new animations 
+that occur in 3 different game states. These states include running, jumping, and death, 
+all of which transition smoothly and are timed to suit the game.
+
+New Functionality:
+The player starts the scene with a fast-paced running animation.
+When the player jumps, there is a jumping animation.
+When the player crashes, the player falls over.
+
+New Concepts and Skills:
+Animation Controllers
+Animation States, Layers, and Transitions
+Animation parameters
+Animation programming
+SetTrigger(), SetBool(), SetInt()
+Not (!) operator
