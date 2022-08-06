@@ -2,11 +2,26 @@ Challenge Overview:
 Use your array and random number generation skills to program this challenge where balls are randomly falling from the sky 
 and you have to send your dog out to catch them before they hit the ground. 
 To complete this challenge, you will have to make sure your variables are assigned properly, 
-your if-statements are programmed correctly, your collisions are being detected perfectly, and that objects are being generated randomly.
+your if-statements are programmed correctly, your collisions are being detected perfectly, 
+and that objects are being generated randomly.
 
 Challenge Outcome:
-A random ball (of 3) is generated at a random x position above the screen
-When the user presses spacebar, a dog is spawned and runs to catch the ball
-If the dog collides with the ball, the ball is destroyed
-If the ball hits the ground, a “Game Over” debug message is displayed
-The dogs and balls are removed from the scene when they leave the screen
+A random ball (of 3) is generated at a random x position above the screen.
+When the user presses spacebar, a dog is spawned and runs to catch the ball.
+If the dog collides with the ball, the ball is destroyed.
+If the ball hits the ground, a “Game Over” debug message is displayed.
+The dogs and balls are removed from the scene when they leave the screen.
+
+Note: When you import the challenge into your project, it is supposed to have bugs. 
+The purpose of the challenge is for you to fix those bugs, which are listed below.
+
+1. Dogs are spawning at the top of the screen, Make the balls spawn from the top of the screen
+2. The player is spawning green balls instead of dogs, Make the player spawn dogs 
+3. The balls are destroyed if anywhere near the dog, 
+The balls should only be destroyed when coming into direct contact with a dog
+4. Nothing is being destroyed off screen, Balls should be destroyed when they leave the bottom of the screen 
+and dogs should be destroyed when they leave the left side of the screen
+5. Only one type of ball is being spawned, Ball 1, 2, and 3 should be spawned randomly
+6. The spawn interval is always the same,Make the spawn interval a random value between 3 seconds and 5 seconds
+7. The player can “spam” the spacebar key, Only allow the player to spawn a new dog after a certain amount of time 
+has passed

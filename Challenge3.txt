@@ -1,5 +1,6 @@
 Challenge Overview: 
-Apply your knowledge of physics, scrolling backgrounds, and special effects to a balloon floating through town, 
+Apply your knowledge of physics, scrolling backgrounds, 
+and special effects to a balloon floating through town, 
 picking up tokens while avoiding explosives. 
 You will have to do a lot of troubleshooting in this project because it is riddled with errors. 
 
@@ -9,3 +10,16 @@ The background seamlessly repeats, simulating the balloon’s movement
 Bombs and Money tokens are spawned randomly on a timer 
 When you collide with the Money, there’s a particle and sound effect
 When you collide with the Bomb, there’s an explosion and the background stops 
+
+Note: When you import the challenge into your project, 
+it is supposed to have bugs. 
+The purpose of the challenge is for you to fix those bugs:
+
+1. The player can’t control the balloon, The balloon should float up as the player presses spacebar
+2. The background only moves when the game is over, The background should move at start, then stop when the game is over
+3. No objects are being spawned, Make bombs or money objects spawn every few seconds
+4. Fireworks appear to the side of the balloon, Make the fireworks display at the balloon’s position
+5. The background is not repeating properly, Make the background repeat seamlessly
+6. The balloon can float way too high, Prevent the player from floating their balloon too high
+7. The balloon can drop below the ground, Make the balloon appear to bounce off of the ground, 
+preventing it from leaving the bottom of the screen. There should be a sound effect when this happens, too!
