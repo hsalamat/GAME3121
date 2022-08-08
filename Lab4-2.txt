@@ -1,0 +1,21 @@
+Overview: 
+The player can roll around to its heart’s content… but it has no purpose. 
+In this lab, we fill that purpose by creating an enemy to challenge the player! 
+First we will give the enemy a texture of your choice, 
+then give it the ability to bounce the player away... potentially knocking them off the cliff. 
+Lastly, we will let the enemy chase the player around the island and spawn in random positions.
+
+Project Outcome:
+A textured and spherical enemy will spawn on the island at start, in a random location determined by a custom function. 
+It will chase the player around the island, bouncing them off the edge if they get too close. 
+
+New Functionality:
+Enemy spawns at random location on the island
+Enemy follows the player around 
+Spheres bounce off of each other 
+
+New Concepts and Skills:
+Physics Materials
+Defining vectors in 3D space
+Normalizing values
+Methods with return values
