@@ -1,0 +1,22 @@
+Overview: 
+First things first, we will create a new prototype and download the starter files! 
+You’ll notice a beautiful island, sky, and particle effect... all of which can be customized! 
+Next you will allow the player to rotate the camera around the island in a perfect radius, 
+providing a glorious view of the scene. The player will be represented by a sphere, 
+wrapped in a detailed texture of your choice. Finally you will add force to the player, 
+allowing them to move forwards or backwards in the direction of the camera.
+
+Project Outcome:
+The camera will evenly rotate around a focal point in the center of the island, 
+provided a horizontal input from the player. The player will control a textured sphere, 
+and move them forwards or backwards in the direction of the aforementioned focal point.
+
+New Functionality:
+Camera rotates around the island based on horizontal input
+Player rolls in direction of camera based on vertical input
+
+New Concepts and Skills:
+Texture Wraps
+Camera as child object
+Global vs Local coordinates
+Get direction of other object
