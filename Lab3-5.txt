@@ -1,0 +1,14 @@
+Overview: 
+In this lab, you program the player’s basic movement, including the code that limits that movement. 
+In order to do this, you will need to do research, reference other code, and problem-solve when things go wrong.
+
+Project Outcome:
+The player will be able to move around based on user input, but not be able to move where they shouldn’t. 
+
+New progress:
+Player can move based on user input
+Player movement is constrained to suit the requirements of the game
+
+New concepts & skills: 
+Program in C# independently
+Troubleshoot issues independently
