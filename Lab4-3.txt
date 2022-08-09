@@ -1,0 +1,23 @@
+Overview:
+The enemy chases the player around the island, but the player needs a better way to defend themselves... 
+especially if we add more enemies. In this lab, we’re going to create a powerup that gives the player 
+a temporary strength boost, shoving away enemies that come into contact! 
+The powerup will spawn in a random position on the island, and highlight the player with an indicator when it is picked up. 
+The powerup indicator and the powerup itself will be represented by stylish game assets of your choice.
+
+Project Outcome:
+A powerup will spawn in a random position on the map, eagerly awaiting the player. 
+Once the player collides with this powerup, the powerup will disappear and the player will be highlighted by an indicator. 
+The powerup will last for 5 seconds after pickup, granting the player super strength that blasts away enemies!
+
+New Functionality:
+When the player collects a powerup, a visual indicator appears
+When the player collides with an enemy while they have the powerup, the enemy goes flying
+After a certain amount of time, the powerup ability and indicator disappear
+
+New Concepts and Skills:
+Debug concatenation
+Local component variables 
+IEnumerators and WaitForSeconds()
+Coroutines
+SetActive(true/false) 
