@@ -1,0 +1,21 @@
+Overview: 
+In this lab, you will work with all of your non-player objects in order 
+to bring your project to life with its basic gameplay. 
+You will give your projectiles, pickups, or enemies their basic movement 
+and collision detection, make them into prefabs, 
+and have them spawned randomly by a spawn manager. 
+By the end of this lab, you should have a glimpse into the core functionality of your game.
+
+Project Outcome:
+Non-player objects are spawned at appropriate locations in the scene with basic movement. 
+When objects collide with each other, they react as intended, by either bouncing 
+or being destroyed.
+
+New functionality
+Non-player objects prefabs have basic movement 
+Objects are destroyed when they leave the screen 
+Collisions between objects are handled appropriately
+Objects are spawned at the appropriate locations on time-based intervals
+
+New concepts & skills: 
+Creating basic gameplay for a project independently
