@@ -1,0 +1,23 @@
+Overview: 
+We have all the makings of a great game; A player that rolls around and rotates the camera, 
+a powerup that grants super strength, and an enemy that chases the player until the bitter end. 
+In this lab we will wrap things up by putting these pieces together!
+First we will enhance the enemy spawn manager, allowing it to spawn multiple enemies 
+and increase their number every time a wave is defeated. 
+Lastly we will spawn the powerup with every wave, giving the player a chance 
+to fight back against the ever-increasing horde of enemies.
+
+Project Outcome:
+The Spawn Manager will operate in waves, spawning multiple enemies and a new powerup with each iteration. 
+Every time the enemies drop to zero, a new wave is spawned and the enemy count increases.
+
+New Functionality:
+Enemies spawn in waves
+The number of enemies spawned increases after every wave is defeated
+A new power up spawns with every wave
+
+New Concepts and Skills:
+For-loops
+Increment (++) operator
+Custom methods with parameters
+FindObjectsOfType

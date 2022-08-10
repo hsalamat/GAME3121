@@ -1,0 +1,23 @@
+Challenge Overview: 
+Use the skills you learned in the Sumo Battle prototype in a completely different context: the soccer field. 
+Just like in the prototype, you will control a ball by rotating the camera around it and applying a forward force, 
+but instead of knocking them off the edge, your goal is to knock them into the opposing net while they try to get into your net.
+Just like in the Sumo Battle, after every round a new wave will spawn with more enemy balls, putting your defense to the test. 
+However, almost nothing in this project is functioning! It’s your job to get it working correctly.
+
+Challenge Outcome:
+Enemies move towards your net, but you can hit them to deflect them away
+Powerups apply a temporary strength boost, then disappear after 5 seconds
+When there are no more enemy balls, a new wave spawns with 1 more enemy 
+
+When you import the challenge into your project, it is supposed to have bugs. 
+The purpose of the challenge is for you to fix those bugs, which are listed below:
+
+1. Hitting an enemy sends it back towards you: When you hit an enemy, it should send it away from the player
+2. A new wave spawns when the player gets a powerup: A new wave should spawn when all enemy balls have been removed
+3. The powerup never goes away: The powerup should only last for a certain duration, then disappear
+4. 2 enemies are spawned in every wave: One enemy should be spawned in wave 1, two in wave 2, three in wave 3, etc
+5. The enemy balls are not moving anywhere: The enemy balls should go towards the “Player Goal” object
+6. The player needs a turbo boost: The player should get a speed boost whenever the player presses spacebar - 
+   and a particle effect should appear when they use it 
+7. The enemies never get more difficult: The enemies’ speed should increase in speed by a small amount with every new wave
