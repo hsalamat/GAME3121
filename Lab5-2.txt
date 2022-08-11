@@ -1,0 +1,23 @@
+Overview: 
+Objects fly into the scene and the player can click to destroy them, but nothing happens. 
+In this lab, we will display a score in the user interface that tracks and displays the player’s points. 
+We will give each target object a different point value, adding or subtracting points on click. 
+Lastly, we will add cool explosions when each target is destroyed. 
+
+Project Outcome:
+A “Score: “ section will display in the UI, starting at zero. When the player clicks a target, 
+the score will update and particles will explode as the target is destroyed. 
+Each “Good” target adds a different point value to the score, while the “Bad” target subtracts from the score.
+
+New Functionality:
+There is a UI element for score on the screen
+The player’s score is tracked and displayed by the score text when hit a target
+There are particle explosions when the player gets an object
+
+New Concepts and Skills:
+TextMeshPro 
+Canvas
+Anchor Points
+Import Libraries
+Custom methods with parameters
+Calling methods from other scripts
