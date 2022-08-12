@@ -1,0 +1,20 @@
+Overview: 
+To finish our game, we will add a Menu and Title Screen of sorts. 
+You will create your own title, and style the text to make it look nice. 
+You will create three new buttons that set the difficulty of the game. 
+The higher the difficulty, the faster the targets spawn!
+
+Project Outcome:
+Starting the game will open to a beautiful menu, with the title displayed prominently 
+and three difficulty buttons resting at the bottom of the screen. 
+Each difficulty will affect the spawn rate of the targets, increasing the skill required to stop “good” targets from falling.
+
+New Functionality:
+Title screen that lets the user start the game
+Difficulty selection that affects spawn rate
+
+New Concepts and Skills:
+AddListener() 
+Passing parameters between scripts
+Divide/Assign (/=) operator
+Grouping child objects
