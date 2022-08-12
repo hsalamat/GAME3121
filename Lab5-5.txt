@@ -1,0 +1,19 @@
+Overview: 
+In this lab, you will finally replace those boring primitive objects with beautiful dynamic ones. 
+You will either use assets from the provided course library or browse the asset store for completely new ones 
+to give your game exactly the look and feel that you want. 
+Then, you will go through the process of actually swapping in those new assets in the place of your placeholder primitives. 
+By the end of this lab, your project will be looking a lot better.
+
+Project Outcome:
+All primitive objects are replaced by actual 3D models, retaining the same basic gameplay functionality.
+
+New Functionality:
+Primitive objects replaced with new assets that function the same way
+
+New concepts & skills: 
+Art workflow
+High vs. Low Poly
+Asset Store
+Nested Prefabs
+Material properties
