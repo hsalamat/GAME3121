@@ -1,0 +1,17 @@
+Overview: 
+In this lab, you will learn about a variety of different techniques to optimize your projects and make them more performant.
+You may not notice a huge difference in these small prototype projects, but when you’re exporting a larger project, 
+especially one for mobile or web, every bit of performance improvement is critical. 
+
+Project Outcome:
+Several of your prototype projects will have improved optimization, serving as examples for you to implement 
+in your personal projects
+
+New Concepts and Skills
+Optimization
+Serialized Fields
+readonly / const / static / protected 
+Event Functions
+FixedUpdate() vs. Update() vs. LateUpdate()
+Awake() vs. Start()
+Object Pooling
