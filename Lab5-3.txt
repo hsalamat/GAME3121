@@ -1,0 +1,23 @@
+Overview: 
+We added a great score counter to the game, but there are plenty of other game-changing UI elements that we could add. 
+In this lab, we will create some “Game Over” text that displays when a “good” target object drops below the sensor. 
+During game over, targets will cease to spawn and the score will be reset. 
+Lastly, we will add a “Restart Game” button that allows the player to restart the game after they have lost.
+
+Project Outcome:
+When a “good” target drops below the sensor at the bottom of the screen, 
+the targets will stop spawning and a “Game Over” message will display across the screen. 
+Just underneath the “Game Over” message will be a “Reset Game” button that reboots the game and resets the score, 
+so the player can enjoy it all over again.
+
+New Functionality:
+A functional Game Over screen with a Restart button
+When the Restart button is clicked, the game resets
+
+New Concepts and Skills: 
+Game states 
+Buttons
+On Click events
+Scene management Library
+UI Library
+Booleans to control game states
