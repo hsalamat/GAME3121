@@ -14,4 +14,3 @@ readonly / const / static / protected
 Event Functions
 FixedUpdate() vs. Update() vs. LateUpdate()
 Awake() vs. Start()
-Object Pooling

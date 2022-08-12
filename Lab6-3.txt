@@ -1,0 +1,19 @@
+Overview: 
+In this lab, you will attempt to add a speedometer and RPM display for your vehicle. 
+In doing so, you will learn the process of doing online research when trying to implement new features 
+and troubleshoot bugs in your projects. As you will find out, adding a new feature is very rarely 
+as simple as it initially seems - you inevitably run into unexpected complications 
+and errors that usually require a little online research. In this lab, you will learn how to do that 
+so that you can do it with your own projects.
+
+Project Outcome:
+By the end of this lab, the vehicle will behave with more realistic physics,  
+and there will be a speedometer and Revolution per Minute (RPM) display.
+
+New Concepts and Skills:
+Searching on Unity Answers, Forum, Scripting API
+Troubleshooting to resolve bugs
+AddRelativeForce, Center of Mass, RoundToInt
+Modulus/Remainder (%) operator
+Looping through lists
+Custom methods with bool return
