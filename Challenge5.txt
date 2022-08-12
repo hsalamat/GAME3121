@@ -1,0 +1,26 @@
+Challenge Overview: 
+Put your User Interface skills to the test with this whack-a-mole-like challenge in which 
+you have to get all the food that pops up on a grid while avoiding the skulls.  
+
+You will have to debug buttons, mouse clicks, score tracking, restart sequences, 
+and difficulty setting to get to the bottom of this one. 
+
+Challenge Outcome:
+All of the buttons look nice with their text properly aligned
+When you select a difficulty, the spawn rate changes accordingly
+When you click a food, it is destroyed and the score is updated in the top-left
+When you lose the game, a restart button appears that lets you play again
+
+Note: When you import the challenge into your project, it is supposed to have bugs. 
+The purpose of the challenge is for you to fix those bugs, which are listed below. 
+
+1. The difficulty buttons look messy: Center the text on the buttons horizontally and vertically
+2. The food is being destroyed too soon: The food should only be destroyed when the player clicks on it, 
+   not when the mouse touches it
+3. The Score is being replaced by the word “score”: It should always say, 
+   “Score: __“ with the value displayed after “Score:”
+4. When you lose, there’s no way to Restart: Make the Restart button appear on the game over screen
+5. The difficulty buttons don’t change the difficulty: The spawnRate is always way too fast. 
+   When you click Easy, the spawnRate should be slower - if you click Hard, the spawnRate should be faster.
+6. The game can go on forever: Add a “Time: __” display that counts down from 60 in whole numbers (i.e. 59, 58, 57, etc) 
+   and triggers the game over sequence when it reaches 0.
