@@ -1,0 +1,14 @@
+Overview: 
+In this lab, you will learn how to build your projects so that they’re playable 
+outside of the Unity interface. First, you will install the necessary export modules 
+to be able to publish your projects. After that, you will build your project as a standalone app 
+to be played on Mac or PC computers. Finally, you will export your project for WebGL 
+and even upload it to a game sharing site so that you can send it to your friends and family.
+
+Project Outcome:
+Your project will be exported and playable as a standalone app on Mac/PC or for embedding online.
+
+New Concepts and Skills:
+Installing export modules 
+Building for Mac/PC
+Building for WebGL/HTML
