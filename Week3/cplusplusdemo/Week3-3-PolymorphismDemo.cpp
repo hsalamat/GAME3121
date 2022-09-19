@@ -1,5 +1,3 @@
-//object composition is the process of creating complex objects from simpler ones.
-//the “has - a” relationship is called composition.
 ///Polymorphism allows a collection of objects of different types to be manipulated through a single common interface
 //One way to draw this heterogeneous collection of shapes is to use a switch statement
 //drawShapes() function needs to “know” about all of the kinds of shapes that can be drawn.

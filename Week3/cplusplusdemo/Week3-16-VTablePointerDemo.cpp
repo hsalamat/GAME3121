@@ -1,4 +1,5 @@
-//If a class contains or inherits one or more virtual functions, then four additional bytes (or eight bytes if the target hardware uses 64-bit addresses) are added to the class layout
+//If a class contains or inherits one or more virtual functions, then four additional bytes 
+// (or eight bytes if the target hardware uses 64-bit addresses) are added to the class layout
 //These four or eight bytes are collectively called the virtual table pointer
 //If you expand the class in QuickWatch or Variables window , you can see class details in ascii like so.
 //Here you can see that the class is of type Triangle and has a virtual table with two functions called SetId and Draw
