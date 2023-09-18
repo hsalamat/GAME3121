@@ -1,8 +1,18 @@
-//  complex objects are often built from smaller, simpler objects. 
-//Object Composition: A personal computer is built from a CPU, a motherboard, some memory
-//Many games and simulations have creatures or objects that move around a board, map, or screen. 
-//One thing that all of these creatures/objects have in common is that they all have a location. 
-//In this example, we are going to create a creature class that uses a point class to hold the creature’s location.
+/** @file Week3-5-CompositionDemo.cpp
+ *  @brief Composition Demo
+ *
+ *  Complex objects are often built from smaller, simpler objects. 
+ *  Object Composition: A personal computer is built from a CPU, a motherboard, some memory
+ *  Many games and simulations have creatures or objects that move around a board, map, or screen. 
+ *  One thing that all of these creatures/objects have in common is that they all have a location.  
+ * 
+ *  @attention The "has - a" relationship is called composition.
+ * 
+ *  In this example, we are going to create a creature class that uses a point class to hold the creature’s location.
+ *
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include <iostream>
 #include <string>

@@ -1,5 +1,11 @@
-///Mix in Classes contains methods for use by other classes without having to be the parent class of those other classes.
-
+/** @file Week3-4-MixInClassDemo.cpp
+ *  @brief Mix in Classes Demo
+ *
+ *  Mix in Classes contains methods for use by other classes without having to be the parent class of those other classes.
+ *
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include <iostream>
 #include <list>

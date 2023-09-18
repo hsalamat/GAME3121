@@ -1,6 +1,16 @@
-///https://en.wikipedia.org/wiki/Virtual_inheritance
-///Virtual inheritance is a C++ technique that ensures only one copy of a base class's member variables are inherited 
-///by grandchild derived classes.
+/** @file Week3-2-VirtualInheritanceDemo.cpp
+ *  @brief Virtual Inhertiance Demo
+ *
+ *  Virtual inheritance is a C++ technique that ensures only one copy of a base class's member variables are inherited 
+ *  by grandchild derived classes..
+ *
+ *  @attention https://en.wikipedia.org/wiki/Virtual_inheritance
+ *
+ *
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
+
 
 #include <iostream>
 using namespace std;

@@ -1,19 +1,27 @@
-//Code after using Abstract factory pattern
-// Abstract factory pattern provides a framework that allows to create objects that follows a pattern. 
-// AbstractFactory : Declares an interface for operations that create abstract product objects.
-//ConcreteFactory: Implements the operations declared in the Abstract Factory to create concrete product objects.
-//Product : Defines a product object to be created by the corresponding concrete factoryand implements the AbstractProduct interface.
-//Client : Uses only interfaces declared by Abstract Factoryand Abstract Product classes.
-// So at runtime, abstract factory is coupled with any desired factory which can create objects of desired type
-//There are 5 components:
-//
-//WINDOWS is defined using C++ preprocessing directive
-//Widget class represents the parent class for the products
-//We have 4 different product classes : LinuxButton, LinuxMenu, WindowsMenu and WindowsButton
-//There is an additional Factory class which handles the error checking 
-// and creates the platform specific product(Widget) depending on the platform defined.
-//The client does not care which concrete objects it gets from each of these concrete factories 
-//since it uses only the generic interfaces of their products.
+/** @file week3-7-abstractfactorypattern.cpp
+ *  @brief Abstract Factory Demo
+ *
+ *  Code after using Abstract factory pattern
+ *  Abstract factory pattern provides a framework that allows to create objects that follows a pattern.
+ *  AbstractFactory : Declares an interface for operations that create abstract product objects.
+ *  ConcreteFactory: Implements the operations declared in the Abstract Factory to create concrete product objects.
+ *  Product : Defines a product object to be created by the corresponding concrete factory 
+ *  and implements the AbstractProduct interface.
+ *  Client : Uses only interfaces declared by Abstract Factoryand Abstract Product classes.
+ *  So at runtime, abstract factory is coupled with any desired factory which can create objects of desired type
+ *  There are 5 components:
+ * 
+ *  WINDOWS is defined using C++ preprocessing directive
+ *  Widget class represents the parent class for the products
+ *  We have 4 different product classes : LinuxButton, LinuxMenu, WindowsMenu and WindowsButton
+ *  There is an additional Factory class which handles the error checking
+ *  and creates the platform specific product(Widget) depending on the platform defined.
+ *  The client does not care which concrete objects it gets from each of these concrete factories
+ *  since it uses only the generic interfaces of their products.
+ *
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include <iostream>
 #define WINDOWS

@@ -1,10 +1,17 @@
-///Polymorphism allows a collection of objects of different types to be manipulated through a single common interface
-//One way to draw this heterogeneous collection of shapes is to use a switch statement
-//drawShapes() function needs to “know” about all of the kinds of shapes that can be drawn.
-//difficult to add new types of shapes to the system
-//The solution is to insulate the majority of our code from any knowledge of the types of objects with which it might be dealing.
-//A virtual function—the C++ language’s primary polymorphism mechanism
-
+/** @file Week3-3-PolymorphismDemo.cpp
+ *  @brief Polymorphism Demo
+ *
+ *  Polymorphism allows a collection of objects of different types to be manipulated through a single common interface.
+ *  One way to draw this heterogeneous collection of shapes is to use a switch statement.
+ *  drawShapes() function needs to “know” about all of the kinds of shapes that can be drawn.
+ *  Difficult to add new types of shapes to the system.
+ *  The solution is to insulate the majority of our code from any knowledge of the types of objects with which it might be dealing.
+ *  A virtual function—the C++ language’s primary polymorphism mechanism.
+ *
+ *
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 
 #include <iostream>
