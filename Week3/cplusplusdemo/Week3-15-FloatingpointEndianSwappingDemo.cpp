@@ -1,6 +1,13 @@
-//an IEEE - 754 floating - point value has a detailed internal structure
-//involving some bits for the mantissa, some bits for the exponent and a
-//sign bit.However, you can endian - swap it just as if it were an integer, because bytes are bytes.
+/** @file Week3-15-FloatingpointEndianSwappingDemo.cpp
+ *  @brief Floating Point Endian Swapping Demo
+ *
+ *  An IEEE - 754 floating - point value has a detailed internal structure
+ *  involving some bits for the mantissa, some bits for the exponent and a sign bit.
+ *  However, you can endian - swap it just as if it were an integer, because bytes are bytes.
+ *
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 
 #include <iostream>

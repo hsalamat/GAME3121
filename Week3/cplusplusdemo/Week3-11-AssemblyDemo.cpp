@@ -1,4 +1,13 @@
-//make sure that you change the platform to "32 bit"
+/** @file Week3-11-AssemblyDemo.cpp
+ *  @brief Assembly Demo
+ *
+ * 
+ *  @attention make sure that you change the platform to "32 bit"
+ *
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
+
 
 #include <stdio.h>
 #include <intrin.h>

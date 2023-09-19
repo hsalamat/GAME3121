@@ -1,8 +1,16 @@
-//In computer science, resource contention is a conflict over access to a shared resource such as random access memory, 
-//  disk storage, cache memory, internal buses or external network devices. ... Resource contention results when multiple processes attempt to use the same shared resource
-//In computer programming, a mutual exclusion object(mutex) is a program object that allows multiple program threads 
-// to share the same resource, such as file access, 
-//but not simultaneously.When a program is started, a mutex is created with a unique name
+/** @file Week3-12-RAIIDemo.cpp
+ *  @brief RAII Demo
+ *
+ *  In computer science, resource contention is a conflict over access to a shared resource such as random access memory,
+ *  disk storage, cache memory, internal buses or external network devices. 
+ *  Resource contention results when multiple processes attempt to use the same shared resource
+ *  In computer programming, a mutual exclusion object(mutex) is a program object that allows multiple program threads
+ *  to share the same resource, such as file access,
+ *  but not simultaneously.When a program is started, a mutex is created with a unique name
+ *
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include <iostream>
 #include <mutex>

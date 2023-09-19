@@ -1,11 +1,18 @@
-//Games are usually developed on a Windows or Linux machine running an Intel Pentium processor(which is little - endian), but run on a console such as the Wii, Xbox 360 or PlayStation 3—all three of which
-//utilize a variant of the PowerPC processor(which can be configured to use either endianness, but is big - endian by default).Now imagine what happens
-//when you generate a data file for consumption by your game engine on an Intel processorand then try to load that data file into your engine running on a PowerPC processor.
-
-//Endian - swapping an integer is not conceptually difficult.You simply start at
-//the most significant byte of the value and swap it with the least significant
-//byte; you continue this process until you reach the halfway point in the value.
-//For example, 0xA7891023 would become 0x231089A7.
+/** @file Week3-14-IntegerEndianSwappingDemo.cpp
+ *  @brief Integer Endian Swapping Demo
+ *
+ *  Games are usually developed on a Windows or Linux machine running an Intel Pentium processor(which is little - endian), but run on a console such as the Wii, Xbox 360 or PlayStation 3—all three of which
+ *  utilize a variant of the PowerPC processor(which can be configured to use either endianness, but is big - endian by default).
+ *  Now imagine what happens when you generate a data file for consumption by your game engine on an Intel processorand then try to load that data file into your engine running on a PowerPC processor.
+ *  
+ *  Endian - swapping an integer is not conceptually difficult.You simply start at
+ *  the most significant byte of the value and swap it with the least significant
+ *  byte; you continue this process until you reach the halfway point in the value.
+ *  For example, 0xA7891023 would become 0x231089A7.
+ *
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 
 #include <iostream>

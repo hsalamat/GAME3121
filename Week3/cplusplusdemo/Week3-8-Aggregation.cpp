@@ -1,5 +1,5 @@
 /** @file Week3-8-Aggregation.cpp
- *  @brief Aggregation Dem o
+ *  @brief Aggregation Demo
  *
  *  Because aggregations are similar to compositions in that they are both part - whole relationships,
  *  they are implemented almost identically, and the difference between them is mostly semantic.
