@@ -1,4 +1,11 @@
-//DeclType Yields the type of its operand, which is not evaluated.
+/** @file Week3-19-declTypeDemo.cpp
+ *  @brief declType Demo
+ *
+ *  DeclType Yields the type of its operand, which is not evaluated.
+ *
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
 
 #include <vector>
 int x = 42;

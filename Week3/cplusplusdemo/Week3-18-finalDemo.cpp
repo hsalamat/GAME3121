@@ -1,6 +1,14 @@
-//When used in a virtual function declaration or definition, 
-//final specifier ensures that the function is virtual and specifies 
-//that it may not be overridden by derived classes.
+/** @file Week3-18-finalDemo.cpp
+ *  @brief final Demo
+ *
+ *  When used in a virtual function declaration or definition,
+ *  final specifier ensures that the function is virtual and specifies
+ *  that it may not be overridden by derived classes.
+ *
+ *  @author Hooman Salamat
+ *  @bug No known bugs.
+ */
+
 struct Base
 {
     virtual void foo();
