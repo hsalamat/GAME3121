@@ -17,7 +17,7 @@ int main()
 	//allocating space for 5 integers
 	p = new int[5];
 
-	cout << "Enter elements :\n";
+	cout << "Enter 5 elements :\n";
 	for (i = 0; i < 5; i++)
 		cin >> p[i];
 
@@ -25,6 +25,6 @@ int main()
 	for (i = 0; i < 5; i++)
 		cout << p[i] << endl;
 
-	delete p;
+	delete[] p;
 	return 0;
 }
