@@ -1,3 +1,8 @@
+//A thread affinity mask is a bit vector in which each bit represents a logical processor that a thread is allowed to run on. 
+// A thread affinity mask must be a subset of the process affinity mask for the containing process of a thread. 
+// A thread can only run on the processors its process can run on. 
+// Therefore, the thread affinity mask cannot specify a 1 bit for a processor when the process affinity mask specifies a 0 bit for that processor.
+
 #include <fstream>
 #include <thread>
 #include <memory>

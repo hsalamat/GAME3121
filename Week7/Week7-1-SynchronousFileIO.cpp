@@ -1,4 +1,6 @@
-//Add _CRT_SECURE_NO_WARNINGS in your preprocessor defintion
+//Right click on your file in the solution explorer, select properties,
+//and add _CRT_SECURE_NO_WARNINGS in your preprocessor defintion under C/C++
+//fopen is deprecated!
 
 #include <stdio.h>
 
@@ -13,8 +15,7 @@ bool syncReadFile(const char* filePath,
 	if (handle)
 	{
 		// BLOCK here until all data has been read.
-		size_t bytesRead = fread(buffer, 1,
-			bufferSize, handle);
+		size_t bytesRead = fread(buffer, 1,bufferSize, handle);
 		int err = ferror(handle); // get error if any
 		fclose(handle);
 		if (0 == err)
