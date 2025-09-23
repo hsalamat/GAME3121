@@ -2,7 +2,7 @@
  *  @brief Inhertiance Demo
  * 
  *  Inheritance allows new classes to be defined as extensions to preexisting classes
- *  Inheritance creates an “is - a” relationship between classes.
+ *  Inheritance creates an ï¿½is - aï¿½ relationship between classes.
  *  For example, a circle is a type of shape.
  *  We can draw diagrams of class hierarchies using the conventions defined by the Unified Modeling Language(UML).
  *
@@ -58,7 +58,7 @@ struct Bat : Mammal, WingedAnimal {};
 Bat bat;
 
 
-void main()
+int main()
 {
     // error: which Animal sub-object should a Bat cast into, 
     // a Mammal::Animal or a WingedAnimal::Animal?
@@ -66,5 +66,7 @@ void main()
 
     Animal& mammal = static_cast<Mammal&>(bat);
     Animal& winged = static_cast<WingedAnimal&>(bat);
+
+    return 0;
    
 }
