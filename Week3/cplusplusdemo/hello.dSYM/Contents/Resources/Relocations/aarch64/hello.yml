@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/hoomanator/GBC/GAME3121/Week3/cplusplusdemo/hello'
+relocations:     []
+...
