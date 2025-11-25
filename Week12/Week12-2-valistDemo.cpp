@@ -3,7 +3,7 @@
  *  @brief Ellipsis Demo
  *  Ellipsis (three dots) in C++ allows the function to accept an indeterminate number of arguments. 
     It is also known as the variable argument list.
-    va_arg takes a va_listand a variable type, and returns the next argument in the list
+    va_arg takes a va_list and a variable type, and returns the next argument in the list
     in the form of whatever variable type it is told.It then moves down the list
     to the next argument.For example, va_arg(a_list, double) will return the next argument,
     assuming it exists, in the form of a double.The next time it is called,
@@ -71,7 +71,7 @@ int main()
 
     errno_t err;
 
-    // Open for read (will fail if file "crt_fopen_s.c" doesn't exist)
+    // Open for read (will fail if file "myfile.txt" doesn't exist)
     err = fopen_s(&pFile, szFileName, "r");
     if (err == 0)
     {
